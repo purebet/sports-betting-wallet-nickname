@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "@purebet/sports-betting-wallet-nickname": "^1.0.0",
+    "unique-names-generator": "^4.7.1"
+  },
+  "name": "@purebet/sports-betting-wallet-nickname",
+  "description": "Hash any wallet address to a sports betting related nickname",
+  "version": "1.0.5",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./lib/index.cjs"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.11",
+    "@babel/plugin-syntax-import-attributes": "^7.22.5",
+    "@babel/preset-env": "^7.22.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purebet/sports-betting-wallet-nickname.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purebet/sports-betting-wallet-nickname/issues"
+  },
+  "homepage": "https://github.com/purebet/sports-betting-wallet-nickname#readme"
+}
